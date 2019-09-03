@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link type="text/css" rel="stylesheet" href="css/normalize.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="css/main.css">
 <title>Exercise 1 | Review</title>
 </head>
@@ -11,47 +12,48 @@
 
 <header>
 	<div class="wrapper row">
-		<a href="#">
-			<img src="" alt="Hosting">
-			<h1>Hosting</h1>
-		</a>
+		<div class="float-left">
+			<a href="#">
+				<img src="" alt="Hosting">
+				<h1 class="inline-block">Hosting</h1>
+			</a>
+		</div>
+		<nav class="float-right align-right">
+			<ul>
+				<li class="inline-block">Support : <a href="mailto:info@webhosting.com">info@webhosting.com</a></li>&emsp;|&emsp;
+				<li class="inline-block"><a href="#">Register</a></li>&emsp;|&emsp;
+				<li class="inline-block"><a href="#">Login</a></li>
+			</ul>
+		</nav>
 	</div>
-	<nav>
-		<ul>
-			<li><b>Support</b> :<a href="mailto:info@webhosting.com">info@webhosting.com</a></li>&emsp;|&emsp;
-			<li><a href="#">Register</a></li>&emsp;|&emsp;
-			<li><a href="#">Login</a></li>
-		</ul>
-	</nav>
 	<nav class="wrapper">
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Service</a></li>
-			<li><a href="#">Hosting Plans</a></li>
-			<li><a href="#">Domain</a></li>
-			<li><a href="#">FAQ</a></li>
-			<li><a href="#">Testimonials</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Support</a></li>
-			<li><a href="#">Contact Us</a></li>
+			<li class="inline-block"><a href="#">Home</a></li>
+			<li class="inline-block"><a href="#">About Us</a></li>
+			<li class="inline-block"><a href="#">Service</a></li>
+			<li class="inline-block"><a href="#">Hosting Plans</a></li>
+			<li class="inline-block"><a href="#">Domain</a></li>
+			<li class="inline-block"><a href="#">FAQ</a></li>
+			<li class="inline-block"><a href="#">Testimonials</a></li>
+			<li class="inline-block"><a href="#">Blog</a></li>
+			<li class="inline-block"><a href="#">Support</a></li>
+			<li class="inline-block"><a href="#">Contact Us</a></li>
 		</ul>
-	</nav>
+	</nav>	
+	<div id="hero" class="align-center">
+		<p>Awesome Hosting</p>
+		<p>With unlimited features</p>
+	</div>
 </header>
-	
-<div id="hero">
-	<p>Awesome Hosting</p>
-	<p>With unlimited features</p>
-</div>
 	
 <section id="search">
 	<div class="wrapper row">
-		<header>
+		<header class="float-left">
 			<img src="" alt="">
-			<h2><span class="h2-thin">Search</span><br>
-			<span class="h2-thick">Your domain</span></h2>
+			<h2>Search<br>
+			<span>Your domain</span></h2>
 		</header>
-		<form>
+		<form class="float-right">
 			<fieldset>
 				<input type="text" name="domain-name" id="domain-name" placeholder="Enter your domain name">
 				<select name="time-period">
@@ -67,7 +69,7 @@
 					<option value="org">.org</option>
 					<option value="co">.co</option>
 				</select>
-				<p><a href="#">Search</a></p>
+				<p class="inline-block"><a href="#">Search</a></p>
 			</fieldset>
 		</form>
 	</div>	
@@ -76,17 +78,15 @@
 <section id="benefits" class="wrapper">
 	<header>
 		<h2>
-			<span class="h2-thin">Our</span><br>
-			<span class="h2-thick">Benefits</span>
+			Our<br>
+			<span>Benefits</span>
 		</h2>
 	</header>
 	<div class="row">
-		<div class="col-1-3">
+		<div class="col-1-3 float-left">
 			<div class="row">
-				<div>
-					<img src="" alt="">
-				</div>
-				<section>
+				<img src="" alt="" class="float-left">
+				<section class="float-right">
 					<header>
 						<h3>99.9% Uptime</h3>
 					</header>
@@ -94,10 +94,8 @@
 				</section>
 			</div>
 			<div class="row">
-				<div>
-					<img src="" alt="">
-				</div>
-				<section>
+				<img src="" alt="" class="float-left">
+				<section class="float-right">
 					<header>
 						<h3>DNS Control</h3>
 					</header>
@@ -105,12 +103,10 @@
 				</section>
 			</div>
 		</div>
-		<div class="col-1-3">
+		<div class="col-1-3 float-left">
 			<div class="row">
-				<div>
-					<img src="" alt="">
-				</div>
-				<section>
+				<img src="" alt="" class="float-left">
+				<section class="float-right">
 					<header>
 						<h3>24/7/365 Support</h3>
 					</header>
@@ -118,10 +114,8 @@
 				</section>
 			</div>
 			<div class="row">
-				<div>
-					<img src="" alt="">
-				</div>
-				<section>
+				<img src="" alt="" class="float-left">
+				<section class="float-right">
 					<header>
 						<h3>Domain Transfer</h3>
 					</header>
@@ -129,12 +123,10 @@
 				</section>
 			</div>
 		</div>
-		<div class="col-1-3">
+		<div class="col-1-3 float-right">
 			<div class="row">
-				<div>
-					<img src="" alt="">
-				</div>
-				<section>
+				<img src="" alt="" class="float-left">
+				<section class="float-right">
 					<header>
 						<h3>Protect Your PC</h3>
 					</header>
@@ -142,10 +134,8 @@
 				</section>
 			</div>
 			<div class="row">
-				<div>
-					<img src="" alt="">
-				</div>
-				<section>
+				<img src="" alt="" class="float-left">
+				<section class="float-right">
 					<header>
 						<h3>100% Security</h3>
 					</header>
@@ -156,26 +146,26 @@
 	</div>
 </section>
 	
-<div id="orange-bg">
+<div id="yellow-bg">
 	<div class="wrapper row">
-		<section id="hot">
+		<section id="hot" class="float-left">
 			<header>
-				<h2><span class="h2-thin">Now</span><br>
-				<span class="h2-thick">What is hot</span></h2>
+				<h2>Now<br>
+				<span>What is hot</span></h2>
 			</header>
 			<div id="hot-box">
-				<p><span class="h2-thin">Get up to</span><br>
-				50% off<br>
+				<p>Get up to<br>
+				<span>50% off</span><br>
 				of each hosting</p>
 			</div>
 		</section>
-		<section id="features">
+		<section id="features" class="float-right">
 			<header>
-				<h2><span class="h2-thin">Our</span><br>
-				<span class="h2-thick">Features</span></h2>
+				<h2>Our<br>
+				<span>Features</span></h2>
 			</header>
 			<div class="row">
-				<div class="col-1-2">
+				<div class="col-1-2 float-left">
 					<ul>
 						<li>Lorem Ipsum is simply dummy.</li>
 						<li>Discovered the undoubtable.</li>
@@ -183,7 +173,7 @@
 						<li>Suffered alteration in some.</li>
 					</ul>
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2 float-right">
 					<ul>
 						<li>Specimen book.</li>
 						<li>Lpsum generators.</li>
@@ -191,8 +181,8 @@
 						<li>Embarrassing hidden.</li>
 					</ul>
 				</div>
-				<p><a href="#">View All</a></p>
 			</div>
+			<p><a href="#">View All</a></p>
 		</section>
 	</div>
 </div>
@@ -200,17 +190,11 @@
 <section id="hosting">
 	<div class="wrapper row">
 		<header>
-			<h2><span class="h2-thin">Our</span><br>
-				<span class="h2-thick">Hosting</span></h2>
+			<h2>Our<br>
+			<span>Hosting</span></h2>
 		</header>
-		<table>
+		<table class="align-center">
 			<caption>Our hosting plans and their various features</caption>
-			<colgroup>
-				<col>
-				<col>
-				<col>
-				<col>
-			</colgroup>
 			<thead>
 				<tr>
 					<td>$5 per month</td>
@@ -271,17 +255,17 @@
 	
 <footer>
 	<div class="wrapper row">
-		<div class="col-1-4 row">
+		<div class="col-1-4 float-left">
 			<a href="#">
 				<img src="" alt="Hosting">
-			<p>Hosting</p>
+			<p class="inline-block">Hosting</p>
 			</a>
 			<p>2015 © Allright Reserved</p>
 		</div>
-		<section class="col-1-4">
+		<section class="col-1-4 float-left">
 			<h4>Quick Links</h4>
 			<div class="row">
-				<nav>
+				<nav class="float-left">
 						<ul>
 							<li><a href="#">Home</a></li>
 							<li><a href="#">About Us</a></li>
@@ -290,7 +274,7 @@
 							<li><a href="#">Domains</a></li>
 						</ul>
 				</nav>
-				<nav>
+				<nav class="float-left">
 						<ul>
 							<li><a href="#">Faq</a></li>
 							<li><a href="#">Blog</a></li>
@@ -300,19 +284,23 @@
 				</nav>
 			</div>
 		</section>
-		<section class="col-1-4">
+		<section class="col-1-4 float-left">
 			<h4>Contact Us</h4>
-			<address></address>
-			<p>Address : 9867 lipsum text here<br>
-			There are many variations</p>
-			<p>Email : <a href="">info@hosting.com</a></p>
-			<p>Call : <a href="">+87 7765 557 888</a></p>
+			<address>
+				<p>Address : 9867 lipsum text here<br>
+				There are many variations</p>
+				<p>Email : <a href="">info@hosting.com</a></p>
+				<p>Call : <a href="">+87 7765 557 888</a></p>
+			</address>
 		</section>
-		<section class="col-1-4">
+		<section class="col-1-4 float-right">
 			<h4>Social Media</h4>
 			<nav>
 				<ul>
-					<li></li>
+					<li><a href="https://www.google.com" target="_blank"><span>Facebook</span></a></li>
+					<li><a href="https://www.google.com" target="_blank"><span>Twitter</span></a></li>
+					<li><a href="https://www.google.com" target="_blank"><span>LinkedIn</span></a></li>
+					<li><a href="https://www.google.com" target="_blank"><span>Google</span></a></li>
 				</ul>
 			</nav>
 		</section>
